@@ -1,0 +1,14 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=2215
+
+Screenshot:
+http://img387.imageshack.us/my.php?image=vimlh3.png
+
+Featuring:
+- STL Highlighting (vimscript#1640 and vimscript#2224)
+- Autocomplete Menu
+- DiffSplit
+- Spelling
+
+This color scheme is based on the oblivion color scheme for gedit, but with some language specific additions and a few more tweaks to provide a wider spectrum of colors.
+
+Thanks to junkblocker for pointing out I forgot to make DiffText something useful.
