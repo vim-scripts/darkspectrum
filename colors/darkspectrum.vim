@@ -30,16 +30,21 @@ hi CursorLine	guibg=#000000
 "hi CursorLine	guibg=#3e4446
 hi CursorColumn	guibg=#3e4446
 
-hi DiffText		guibg=#4e9a06 guifg=#FFFFFF gui=bold
-hi DiffChange	guibg=#4e9a06 guifg=#FFFFFF gui=bold
-hi DiffAdd		guibg=#204a87 guifg=#FFFFFF gui=bold
-hi DiffDelete	guibg=#5c3566 guifg=#FFFFFF gui=bold
+"hi DiffText     guibg=#4e9a06 guifg=#FFFFFF gui=bold
+"hi DiffChange   guibg=#4e9a06 guifg=#FFFFFF gui=bold
+"hi DiffAdd      guibg=#204a87 guifg=#FFFFFF gui=bold
+"hi DiffDelete   guibg=#5c3566 guifg=#FFFFFF gui=bold
+
+hi DiffAdd         guifg=#e0a8d9 guibg=#3d3040 gui=bold
+hi DiffChange      guibg=#4e5456
+hi DiffDelete      guifg=#252723 guibg=#000000 gui=bold
+hi DiffText        guifg=#C0C0C0 guibg=#4e5456 gui=bold
 "hi ErrorMsg
 
 hi Number		guifg=#fce94f
 hi VertSplit	guibg=#eeeeec guifg=#000000 gui=none
-hi Folded		guibg=#555753 guifg=#fce94f
-hi FoldColumn	guibg=#555753 guifg=tan
+hi Folded		guibg=#000000 guifg=#fce94f
+hi FoldColumn	guibg=#000000 guifg=#FFFFFF
 hi LineNr		guifg=#555753 guibg=#000000
 hi NonText		guifg=#555753 guibg=#000000
 hi ModeMsg		guifg=#fce94f
@@ -73,6 +78,7 @@ hi link Error			Todo
 hi link Character		Number
 hi link rubySymbol		Number
 hi link htmlTag			htmlEndTag
+"hi link htmlTagName     htmlTag
 hi link htmlLink		Underlined
 hi link pythonFunction	Identifier
 hi link Question		Type
