@@ -35,26 +35,37 @@ hi CursorColumn	guibg=#3e4446
 "hi DiffAdd      guibg=#204a87 guifg=#FFFFFF gui=bold
 "hi DiffDelete   guibg=#5c3566 guifg=#FFFFFF gui=bold
 
-hi DiffAdd         guifg=#e0a8d9 guibg=#3d3040 gui=bold
-hi DiffChange      guibg=#4e5456
-hi DiffDelete      guifg=#252723 guibg=#000000 gui=bold
-hi DiffText        guifg=#C0C0C0 guibg=#4e5456 gui=bold
+hi DiffAdd         guifg=#ffcc7f guibg=#a67429 gui=none
+hi DiffChange      guifg=#7fbdff guibg=#425c78 gui=none
+hi DiffText        guifg=#7fbdff guibg=#425c78 gui=none
+hi DiffDelete      guifg=#252723 guibg=#000000 gui=none
 "hi ErrorMsg
 
 hi Number		guifg=#fce94f
+
 hi VertSplit	guibg=#eeeeec guifg=#000000 gui=none
-hi Folded		guibg=#000000 guifg=#fce94f
-hi FoldColumn	guibg=#000000 guifg=#FFFFFF
+hi Folded		guibg=#000000 guifg=#FFFFFF gui=bold
+hi vimFold		guibg=#000000 guifg=#FFFFFF gui=bold
+hi FoldColumn	guibg=#000000 guifg=#FFFFFF gui=bold
+
 hi LineNr		guifg=#555753 guibg=#000000
 hi NonText		guifg=#555753 guibg=#000000
+hi Folded		guifg=#555753 guibg=#000000 gui=bold
+hi FoldeColumn  guifg=#555753 guibg=#000000 gui=bold
+hi StatusLine   guifg=#555753 guibg=#000000 gui=bold
+hi StatusLineNC guifg=#555753 guibg=#000000 gui=none
+hi VertSplit    guifg=#555753 guibg=#000000 gui=bold
+
+hi StatusLine   guifg=#000000 guibg=#ffffff gui=none
+hi StatusLineNC guifg=#000000 guibg=#aaaaaa gui=none
+
 hi ModeMsg		guifg=#fce94f
 hi MoreMsg		guifg=#fce94f
 hi Visual		guifg=#FFFFFF guibg=#4e5456 gui=none
 hi IncSearch	guibg=#FFFFFF guifg=#ef5939
 hi Search		guibg=#ad7fa8 guifg=#FFFFFF
 hi SpecialKey	guifg=#888a85
-hi StatusLine	guibg=#eeeeec guifg=#000000 gui=none
-hi StatusLineNC	guibg=#babdb6 guifg=#000000 gui=none
+
 hi Title		guifg=#ef5939
 hi WarningMsg	guifg=#ef5939
 hi Number		guifg=#fcaf3e
