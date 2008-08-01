@@ -85,6 +85,15 @@ hi Ignore		guifg=#555753
 hi Todo			guifg=#FFFFFF guibg=#ef5939 gui=bold
 hi Function		guifg=#ad7fa8
 
+"hi WildMenu     guibg=#2e3436 guifg=#ffffff gui=bold
+"hi WildMenu     guifg=#7fbdff guibg=#425c78 gui=none
+hi WildMenu     guifg=#ffffff guibg=#000000 gui=bold
+
+hi Pmenu        guibg=#000000 guifg=#c0c0c0
+hi PmenuSel     guibg=#3465a4 guifg=#ffffff
+hi PmenuSbar    guibg=#222222 guifg=#222222
+hi PmenuThumb   guibg=#666666 guifg=#666666 
+
 hi link Error			Todo
 hi link Character		Number
 hi link rubySymbol		Number
