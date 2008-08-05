@@ -93,6 +93,9 @@ hi PmenuSel     guibg=#3465a4 guifg=#ffffff
 hi PmenuSbar    guibg=#222222 guifg=#222222
 hi PmenuThumb   guibg=#666666 guifg=#666666 
 
+hi cppSTLType   guifg=#729fcf gui=bold
+
+hi link cppSTL          Function
 hi link Error			Todo
 hi link Character		Number
 hi link rubySymbol		Number
