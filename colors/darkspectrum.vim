@@ -74,7 +74,7 @@ hi Comment		guifg=#888a85
 hi Constant		guifg=#ef5939 gui=none
 hi String		guifg=#fce94f
 hi Identifier	guifg=#729fcf
-hi Statement	guifg=#ffffff
+hi Statement	guifg=#ffffff gui=bold
 hi PreProc		guifg=#ffffff gui=bold
 hi Type			guifg=#8ae234 gui=bold
 hi Special		guifg=#e9b96e
@@ -94,6 +94,11 @@ hi PmenuSbar    guibg=#222222 guifg=#222222
 hi PmenuThumb   guibg=#666666 guifg=#666666 
 
 hi cppSTLType   guifg=#729fcf gui=bold
+
+hi spellBad     guisp=#fcaf3e
+hi spellCap     guisp=#73d216
+hi spellRare    guisp=#ad7fa8
+hi spellLocal   guisp=#729fcf
 
 hi link cppSTL          Function
 hi link Error			Todo
