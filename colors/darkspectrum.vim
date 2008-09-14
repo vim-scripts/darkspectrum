@@ -60,10 +60,11 @@ hi StatusLineNC guifg=#000000 guibg=#C0C0C0 gui=none
 
 hi ModeMsg		guifg=#fce94f
 hi MoreMsg		guifg=#fce94f
-hi Visual		guifg=#FFFFFF guibg=#4e5456 gui=none
+hi Visual		guifg=#FFFFFF guibg=#3465a4 gui=none
+hi VisualNOS    guifg=#FFFFFF guibg=#204a87 gui=none
 hi IncSearch	guibg=#FFFFFF guifg=#ef5939
 hi Search		guibg=#ad7fa8 guifg=#FFFFFF
-hi SpecialKey	guifg=#888a85
+hi SpecialKey	guifg=#8ae234
 
 hi Title		guifg=#ef5939
 hi WarningMsg	guifg=#ef5939
@@ -90,8 +91,8 @@ hi WildMenu     guifg=#ffffff guibg=#3465a4 gui=none
 
 hi Pmenu        guibg=#000000 guifg=#c0c0c0
 hi PmenuSel     guibg=#3465a4 guifg=#ffffff
-hi PmenuSbar    guibg=#222222 guifg=#222222
-hi PmenuThumb   guibg=#666666 guifg=#666666 
+hi PmenuSbar    guibg=#444444 guifg=#444444
+hi PmenuThumb   guibg=#888888 guifg=#888888 
 
 hi cppSTLType   guifg=#729fcf gui=bold
 
@@ -117,6 +118,7 @@ hi link shDeref			Identifier
 hi link shVariable		Function
 hi link rubySharpBang	Special
 hi link perlSharpBang	Special
+hi link schemeFunc      Statement
 "hi link shSpecialVariables Constant
 "hi link bashSpecialVariables Constant
 
